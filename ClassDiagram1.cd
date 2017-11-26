@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UnityStandardAssets.ImageEffects.Antialiasing" Collapsed="true">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQIAIABAiBAABACAAAoAAAECBAgQAAEEgBAAAACAAIA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.Bloom" Collapsed="true">
+    <Position X="18" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIgIAEAABAQAABSDhDAAAAIgIgNAgBQBUAEEBAg=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.BloomAndFlares" Collapsed="true">
+    <Position X="2.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAIgIIAAAlAQIAByChDIAAAIgAgPIABQBUAEEBAw=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.BloomOptimized" Collapsed="true">
+    <Position X="9" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQIAAAAAAAAAAACAAAAAACCEICBAEAAgAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.Blur" Collapsed="true">
+    <Position X="52" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABIAAAGAAAAAAAgAAAAABAAAAAAEIEAAAAABAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\Blur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.BlurOptimized" Collapsed="true">
+    <Position X="22.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAEJEBAEAAgQAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.CameraMotionBlur" Collapsed="true">
+    <Position X="29.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgADAQCAACAgAACQgAQAEIJABxBQNCFIABACAGAACpE=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.ColorCorrectionCurves" Collapsed="true">
+    <Position X="36" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAA2gECIAABDQCICAAACAAEAkQAGAAlAAAAACAEA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionCurves.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.ColorCorrectionLookup" Collapsed="true">
+    <Position X="42.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAIAAAAAAAAAAAAGIBBAAEEBAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionLookup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.ColorCorrectionRamp" Collapsed="true">
+    <Position X="0.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.ContrastEnhance" Collapsed="true">
+    <Position X="11.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAEAAgAAAAAAAAAIAAAAAGCEAABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\ContrastEnhance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.ContrastStretch" Collapsed="true">
+    <Position X="53.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GBAAABAAgCoAACAAIAAAACggAgBAAGEIAIAAAAAACAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.CreaseShading" Collapsed="true">
+    <Position X="24.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAASAAAAAAAAAAgAAAAAAAAAAAACAEBEBCAABAABAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\CreaseShading.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.DepthOfField" Collapsed="true">
+    <Position X="31.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhggAgAgABUQAkBQAAAEAAIAQAAAAkNADAABAgIGEA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\DepthOfField.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.DepthOfFieldDeprecated" Collapsed="true">
+    <Position X="38.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBQqCgQikkAAAQBBBAAQASKAMBAABAWMURCIFKAHDGQ=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\DepthOfFieldDeprecated.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.EdgeDetection" Collapsed="true">
+    <Position X="45" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAEAACAoAACAAAAAAAACAABAAAUAABAQgAgCCAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\EdgeDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.Fisheye" Collapsed="true">
+    <Position X="4.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAgAAAAAAAAAAAAAAAEAQDAAAAAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\Fisheye.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.GlobalFog" Collapsed="true">
+    <Position X="13.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAQQAAAIAAAKAAAgAAAEAADAAAAIAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\GlobalFog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.Grayscale" Collapsed="true">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\Grayscale.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.ImageEffectBase" Collapsed="true">
+    <Position X="6" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAACAAAAAAAAAAAAAAAAAAAAAIAAAAAEBAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\ImageEffectBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.ImageEffects" Collapsed="true">
+    <Position X="55.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQgAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\ImageEffects.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.MotionBlur" Collapsed="true">
+    <Position X="9.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAACAAAAAAEAIAAAAAAEIAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.NoiseAndGrain" Collapsed="true">
+    <Position X="47.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAABgAAAAQAQAAABBggSAAIAAggBQAEAAZACIBIAAEA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndGrain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.NoiseAndScratches" Collapsed="true">
+    <Position X="52" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBEAAAACAAAABAAAACCAAIAwJQwAEIAACAAQhAIAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.PostEffectsBase" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAhCAAAIDAAAAAIAAAQIACAAAAAIAAQAhAABAAgCAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.PostEffectsHelper" Collapsed="true">
+    <Position X="53.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAIQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\PostEffectsHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.Quads" Collapsed="true">
+    <Position X="55.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAACggAAEEAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\Quads.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.ScreenOverlay" Collapsed="true">
+    <Position X="33.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAKgEAABAABAAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenOverlay.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.ScreenSpaceAmbientObscurance" Collapsed="true">
+    <Position X="40.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAACAAAAABAAAAAAAAAAAAACAUIQBAEAAAQAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.ScreenSpaceAmbientOcclusion" Collapsed="true">
+    <Position X="52" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgABAigIAAAEAAAAAAAAAAAIICGIAAAABAAACAQ=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.SepiaTone" Collapsed="true">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\SepiaTone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.SunShafts" Collapsed="true">
+    <Position X="15.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACgAAAAAAAAAIApAAiBAAAAgBAEAAJAgAAAAAAI=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\SunShafts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.TiltShift" Collapsed="true">
+    <Position X="20.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAEAAAACgAAAAgAAAAAAAAAEBABAAAAAQAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\TiltShift.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.Tonemapping" Collapsed="true">
+    <Position X="27" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAgACIAAEAAAAAAADBBEIABBIAIAAEAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\Tonemapping.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.Triangles" Collapsed="true">
+    <Position X="53.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACABAAAAAAAAAAAAAAAAAAACgAAAEEAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.Twirl" Collapsed="true">
+    <Position X="11.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAACAAAAAAAAAAAAAAAAAAAAAEAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.VignetteAndChromaticAberration" Collapsed="true">
+    <Position X="49.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAABQAAEAAgACAAAhAAAAEAAgACAGAABAAQBAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityStandardAssets.ImageEffects.Vortex" Collapsed="true">
+    <Position X="5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAACAAAAAAAAAAAAAAAAAAAAAEAAAAAAABAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="UnityStandardAssets.ImageEffects.AAMode" Collapsed="true">
+    <Position X="52" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAQAAAAAAAAAAAAAAAIAAAAABAAIAAAACAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityStandardAssets.ImageEffects.LensflareStyle34" Collapsed="true">
+    <Position X="52" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAQAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityStandardAssets.ImageEffects.TweakMode34" Collapsed="true">
+    <Position X="53.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityStandardAssets.ImageEffects.HDRBloomMode" Collapsed="true">
+    <Position X="55.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAIA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnityStandardAssets.ImageEffects.BloomScreenBlendMode" Collapsed="true">
+    <Position X="53.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
