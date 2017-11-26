@@ -39,71 +39,99 @@ public class ReadObjects : MonoBehaviour
 
         #region getting objects
 
-        var uriObjects = hostName + port + "/Objects";
-        var objects = GetObjectList<ObjectDB>(uriObjects);
-
-        foreach (var myObj in objects)
+        try
         {
-            GameObject obj;
-
-            obj = Instantiate(prefab, pos, prefab.transform.rotation) as GameObject;
-            obj.name = "object" + myObj.Id as string;
-            obj.transform.SetParent(GameObject.Find("Objects").transform);
-            obj.GetComponent<ObjectsInformations>().id = myObj.Id.ToString();
-            obj.GetComponent<ObjectsInformations>().title = myObj.Title;
-            obj.GetComponent<ObjectsInformations>().description = myObj.Abstract;
-            obj.GetComponent<ObjectsInformations>().version = myObj.VersionNb.ToString();
-            obj.GetComponent<ObjectsInformations>().status = myObj.Status;
-            obj.GetComponent<ObjectsInformations>().geometry_mock_up = myObj.Geometry;
+            var uriObjects = hostName + port + "/Objects";
+            var objects = GetObjectList<ObjectDB>(uriObjects);
 
 
-            allObjects.Add(obj);
+            foreach (var myObj in objects)
+            {
+                GameObject obj;
+
+                obj = Instantiate(prefab, pos, prefab.transform.rotation) as GameObject;
+                obj.name = "object" + myObj.Id as string;
+                obj.transform.SetParent(GameObject.Find("Objects").transform);
+                obj.GetComponent<ObjectsInformations>().id = myObj.Id.ToString();
+                obj.GetComponent<ObjectsInformations>().title = myObj.Title;
+                obj.GetComponent<ObjectsInformations>().description = myObj.Abstract;
+                obj.GetComponent<ObjectsInformations>().version = myObj.VersionNb.ToString();
+                obj.GetComponent<ObjectsInformations>().status = myObj.Status;
+                obj.GetComponent<ObjectsInformations>().geometry_mock_up = myObj.Geometry;
+
+
+                allObjects.Add(obj);
+            }
         }
+        catch (Exception e)
+        {
+            throw e;
+        }
+
+
 
 
         #endregion
 
         #region getting Relations
 
-        var uriRelations = hostName + port + "/Relations";
-        var relations = GetObjectList<Relation>(uriRelations);
-
-        foreach (var relation in relations)
+        try
         {
-            GameObject obj = GameObject.Find("object" + relation.A as string);
-            GameObject objRelated = GameObject.Find("object" + relation.B as string);
-            ObjectsInformations comp = obj.GetComponent<ObjectsInformations>();
-            comp.objets_en_relation.Add(objRelated);
+
+            var uriRelations = hostName + port + "/Relations";
+            var relations = GetObjectList<Relation>(uriRelations);
+
+            foreach (var relation in relations)
+            {
+                GameObject obj = GameObject.Find("object" + relation.A as string);
+                GameObject objRelated = GameObject.Find("object" + relation.B as string);
+                ObjectsInformations comp = obj.GetComponent<ObjectsInformations>();
+                comp.objets_en_relation.Add(objRelated);
+            }
+
+        }
+        catch (Exception e)
+        {
+            throw e;
         }
 
         #endregion
 
         #region getting spatial data
 
-        var uriSpatiale = hostName + port + "/Spatial";
-        var spatials = GetObjectList<Spatial>(uriSpatiale);
-
-        foreach (var spatial in spatials)
+        try
         {
-            GameObject obj = GameObject.Find("object" + spatial.Id);
-            ObjectsInformations comp = obj.GetComponent<ObjectsInformations>();
+            var uriSpatiale = hostName + port + "/Spatial";
+            var spatials = GetObjectList<Spatial>(uriSpatiale);
 
-            if (spatial.Longitude.HasValue && spatial.Latitude.HasValue)
+            foreach (var spatial in spatials)
             {
-                comp.isSpatialized = true;
-                comp.GPS_longitude = spatial.Longitude.Value;
-                comp.GPS_lattitude = spatial.Latitude.Value;
-                comp.GPS_converted = GPSEncoder.GPSToUCS(new Vector2(spatial.Latitude.Value, spatial.Longitude.Value));
-                spatializedObjects.Add(obj);
+                GameObject obj = GameObject.Find("object" + spatial.Id);
+                ObjectsInformations comp = obj.GetComponent<ObjectsInformations>();
 
-            }
+                if (spatial.Longitude.HasValue && spatial.Latitude.HasValue)
+                {
+                    comp.isSpatialized = true;
+                    comp.GPS_longitude = spatial.Longitude.Value;
+                    comp.GPS_lattitude = spatial.Latitude.Value;
+                    comp.GPS_converted = GPSEncoder.GPSToUCS(new Vector2(spatial.Latitude.Value, spatial.Longitude.Value));
+                    spatializedObjects.Add(obj);
 
-            else
-            {
-                comp.isSpatialized = false;
-                noSpatializedObjects.Add(obj);
+                }
+
+                else
+                {
+                    comp.isSpatialized = false;
+                    noSpatializedObjects.Add(obj);
+                }
             }
         }
+        catch (Exception e)
+        {
+            throw e;
+        }
+
+
 
         #region group
 
@@ -159,7 +187,7 @@ public class ReadObjects : MonoBehaviour
             if (www.isNetworkError || www.isHttpError)
             {
                 Debug.Log(www.error);
-                return "";
+                throw new Exception("Couldn't connect to the Database");
             }
             else
             {
@@ -170,12 +198,20 @@ public class ReadObjects : MonoBehaviour
 
     List<T> GetObjectList<T>(string uri)
     {
-        UnityWebRequest www = UnityWebRequest.Get(uri);
+        try
+        {
+            UnityWebRequest www = UnityWebRequest.Get(uri);
 
-        string objectsJson = GetRequest(uri);
-        var objects = JsonConvert.DeserializeObject<List<T>>(objectsJson);
+            string objectsJson = GetRequest(uri);
+            var objects = JsonConvert.DeserializeObject<List<T>>(objectsJson);
 
-        return objects;
+            return objects;
+        }
+        catch (Exception e)
+        {
+            throw e;
+        }
+
 
     }
 

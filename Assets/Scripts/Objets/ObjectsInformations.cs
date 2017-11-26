@@ -42,21 +42,30 @@ public class ObjectsInformations : MonoBehaviour {
         char[] separator = { '(', ')',' ',',' };
         string[] substrings = stringValue.Split(separator);
 
-        List<Vector2> tempList = new List<Vector2>();  
-
-        for (int i = 2; i < substrings.Length - 3; i += 2)
+        List<Vector2> tempList = new List<Vector2>();
+        try
         {
-            float X = float.Parse(substrings[i]) * 20000;
-            float Y = float.Parse(substrings[i + 1]) * 4455 - 4455;
+            for (int i = 2; i < substrings.Length - 3; i += 2)
+            {
+                float X = float.Parse(substrings[i].Replace('.',',')) * 20000;
+                float Y = float.Parse(substrings[i + 1].Replace('.', ',')) * 4455 - 4455;
 
-            //La taille de la photo a été divisée par 4
-            X *= 0.25f;
-            Y *= -0.25f;
+                //La taille de la photo a été divisée par 4
+                X *= 0.25f;
+                Y *= -0.25f;
 
-            tempList.Add(new Vector2(X, Y));
+                tempList.Add(new Vector2(X, Y));
+            }
+
+            orthophoto_coo = tempList.ToArray();
+        }
+        catch (System.Exception e)
+        {
+            
+            throw e;
         }
 
-        orthophoto_coo = tempList.ToArray();
+        
     }
 }
 
